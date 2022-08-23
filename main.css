@@ -1,0 +1,123 @@
+/* Body Font */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* Number font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+/* Variables */
+:root {
+    /* COLORS */
+
+    --background-color: #5e5249;    
+    --border-color: #37312e;
+    --grid-color: #b4e76c;
+    --primary-text-color: #61eb0b;
+    --black-text-color: #0e0e0e;
+    --error-color: #f07244;
+
+    /* FONTS */
+    --heading-font-family: 'Aclonica', sans-serif;    
+    --grid-font-family: 'Raleway', sans-serif;
+}
+
+/* reset */
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Body */
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color); 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--heading-font-family);  
+    letter-spacing: 8px;
+   
+}
+
+
+
+hr {
+    width: 500px;
+    
+}
+
+#errors {
+    color: var(--error-color);
+}
+
+#board {
+    height: 450px;
+    width: 450px;
+    background-color: var(--grid-color);
+    color: var(--black-text-color);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.tile {
+    width: 48px; 
+    height: 48px;
+    border: 1px solid var(--border-color);
+
+    /* Text */
+    font-size: 20px;
+    font-family: var(--grid-font-family);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    height: 50px;
+    width: 450px;
+    background-color: var(--grid-color);
+    color: var(--black-text-color);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    font-family: var(--grid-font-family);
+}
+
+.number {
+    width: 44px; 
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+
+
+
+
