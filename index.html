@@ -11,19 +11,26 @@
         <script src="main.js" async defer></script>
     </head>
 
-    <body>        
-       <h1>Sudoko</h1>
+    <body> 
+        <div class="container">
+        <h1>Sudoko</h1>              
        <hr>
-       <p>Wrong</p>
-       <h2 id="errors">0</h2>
-       <div class="newgame">
-        <button>New Game</button>
-       </div> 
+       <p class="errors">
+        <p>Wrong</p>
+        <h2 id="errors">0</h2>
+       </p>
+       
+       
        <br>
        <!-- 9 x 9 Grid -->
        <div id="board"></div>
        <br>
        <div id="digits"></div> 
+       <div class="newgame">
+        <button>New Game</button>
+       </div> 
+
+    </div> 
                     
     </body>
 </html>

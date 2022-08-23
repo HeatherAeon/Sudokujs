@@ -13,7 +13,7 @@
     --grid-color: #b4e76c;
     --primary-text-color: #61eb0b;
     --black-text-color: #0e0e0e;
-    --error-color: #f07244;
+    --error-color: #eb4b0c;
 
     /* FONTS */
     --heading-font-family: 'Aclonica', sans-serif;    
@@ -49,8 +49,10 @@ hr {
 }
 
 #errors {
-    color: var(--error-color);
+    color: var(--error-color);    
 }
+
+
 
 #board {
     height: 450px;
