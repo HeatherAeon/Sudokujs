@@ -12,7 +12,7 @@
 
 ### Links
 
-- Game URL: [https://heatheraeon.github.io/#/]
+- Game URL: [https://heatheraeon.github.io/Sudokujs/]
 
 ### Built with
 
